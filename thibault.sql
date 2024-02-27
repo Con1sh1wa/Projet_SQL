@@ -1,5 +1,14 @@
 -- Structure de la table `bill`
 --
+DROP TABLE IF EXISTS `patient`;
+CREATE TABLE IF NOT EXISTS `patient` (
+  `Pat_no` char(50) DEFAULT NULL,
+  `Pat_lname` char(100) DEFAULT NULL,
+  `Pat_fname` char(100) DEFAULT NULL,
+  `Pat_address` char(100) DEFAULT NULL,
+  `Pat_telephone` char(100) DEFAULT NULL,
+  `Pat_doctor` char(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 DROP TABLE IF EXISTS `bill`;
 CREATE TABLE IF NOT EXISTS `bill` (
