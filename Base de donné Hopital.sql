@@ -1,7 +1,3 @@
-
--- --------------------------------------------------------
-
---
 -- Structure de la table `bill`
 --
 
@@ -352,6 +348,3 @@ INSERT INTO `technician` (`Technician_no`, `Technician_lname`, `Technician_fname
 ('9', 'Sans nez', 'Voldemort', '16 rue manou', '0615325987', 1385, 'Electric', 'République');
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
